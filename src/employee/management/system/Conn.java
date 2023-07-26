@@ -16,7 +16,7 @@ public class Conn  {
        try {
         //forNme is a static method present in java class
         Class.forName("com.mysql.cj.jdbc.Driver"); //inside () mention MYSQL driver
-        c=DriverManager.getConnection("jdbc:mysql:///employee_management_system" , "root" ,"password");//please use own password for mysql
+        c=DriverManager.getConnection("jdbc:mysql:///employee_management_system" , "root" ,"Debosmita@007");//please use own password for mysql
         //add name of database created in Mysql
         // i.e. "employee_management_system " here , then usename of MYsQL , password
         s=c.createStatement();
